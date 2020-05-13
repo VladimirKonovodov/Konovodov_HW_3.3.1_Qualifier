@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             @RequiresApi(api = Build.VERSION_CODES.P)
             @Override
             public void onClick(View v) {
-                if (llayout2.getVisibility()==View.VISIBLE) {
+                if (llayout2.getVisibility() == View.VISIBLE) {
                     llayout2.setVisibility(View.GONE);
                     llayout3.setVisibility(View.GONE);
                     llayout4.setVisibility(View.GONE);
@@ -94,8 +94,7 @@ public class MainActivity extends AppCompatActivity {
                     llayout8.setVisibility(View.VISIBLE);
                     llayout9.setVisibility(View.VISIBLE);
 
-                }
-                else {
+                } else {
                     llayout2.setVisibility(View.VISIBLE);
                     llayout3.setVisibility(View.VISIBLE);
                     llayout4.setVisibility(View.VISIBLE);
@@ -461,7 +460,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
     private void initID() {
         frameViewBtn = findViewById(R.id.button);
         llayout2 = findViewById(R.id.linearLayout2);
@@ -473,7 +471,6 @@ public class MainActivity extends AppCompatActivity {
         llayout7 = findViewById(R.id.linearLayout7);
         llayout8 = findViewById(R.id.linearLayout8);
         llayout9 = findViewById(R.id.linearLayout9);
-
 
 
         text1 = (TextView) findViewById(R.id.textView);
